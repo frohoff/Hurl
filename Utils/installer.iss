@@ -34,7 +34,7 @@ PrivilegesRequiredOverridesAllowed=dialog
 OutputDir=.
 OutputBaseFilename=Hurl_Installer
 
-ArchitecturesAllowed=x64
+ArchitecturesAllowed=arm64
 Compression=lzma2
 SolidCompression=yes
 
