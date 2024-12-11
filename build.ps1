@@ -6,6 +6,8 @@ cd ./Source/Launcher
 cargo build --release --target aarch64-pc-windows-msvc
 cd ../..
 
+ls -r Source/Launcher/target
+
 Write-Output "Building Hurl...."
 dotnet restore
 dotnet publish -c Release -r win-arm64 --no-self-contained --output $OUTPUT_PATH ./Hurl.sln
